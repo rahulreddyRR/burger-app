@@ -17,13 +17,13 @@ export const removeIngredient = (name) => {
 
 export const fetchingredientsFailed = () => {
     return {
-        type: actionTypes.FATCH_INGREDIENTS_FAILDED
+        type: actionTypes.FETCH_INGREDIENTS_FAILED
     };
 };
 
 export const setIngredients = (ingredients) => {
     return {
-        type: actionTypes.SET_INGREDIENT,
+        type: actionTypes.SET_INGREDIENTS,
         ingredients: ingredients
     };
 };
